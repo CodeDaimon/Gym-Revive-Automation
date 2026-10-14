@@ -32,10 +32,10 @@ Google Sheets → n8n inactivity checks → Ollama message generation → WhatsA
 ## Screenshots
 
 ### Dashboard
-![GymRevive Dashboard](screenshots/dashboard1.png)
+(screenshots/dashboard1.png)
 
 ### n8n Automation Workflow
-![GymRevive n8n Workflow](screenshots/n8nworkflow.png)
+(screenshots/n8nworkflow.png)
 
 ## Security
 Never commit credentials, API tokens, private keys, or real member personal data.
