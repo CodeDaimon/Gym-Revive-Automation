@@ -29,9 +29,26 @@ Google Sheets → n8n inactivity checks → Ollama message generation → WhatsA
 4. Configure n8n, Ollama, and Meta WhatsApp Cloud API.
 5. Run the dashboard:
    `python -m streamlit run app.py`
+## Screenshots
+
+### Dashboard
+![GymRevive Dashboard](screenshots/dashboard1.png)
+
+### n8n Automation Workflow
+![GymRevive n8n Workflow](screenshots/n8nworkflow.png)
 
 ## Security
 Never commit credentials, API tokens, private keys, or real member personal data.
 
-## Current Status
-Portfolio prototype tested with sample member records and Meta WhatsApp test setup. Not yet deployed for a real gym.
+## 🚀 Future Improvements
+
+**Campaign Analytics** — Track messages sent, delivery status, and member responses.
+**Automated Membership Renewal Reminders** — Notify members before their memberships expire.
+**Referral System** — Encourage existing members to invite friends with referral offers.
+**Member Retention Insights** — Identify inactivity patterns and members at risk of dropping out.
+**Gym Management Dashboard** — Add search, filters, and improved campaign reporting.
+**Error Handling & Retry Logic** — Make workflows more reliable when APIs or services fail.
+**Production Deployment** — Deploy the application for access beyond the local machine.
+**Multi-Gym Support** — Allow multiple gyms to manage their own member data and campaigns.
+
+*These features are planned and may change as the project evolves.*
